@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سياسة الخصوصية — iPTV MD</title>
+<meta name="description" content="سياسة الخصوصية لتطبيق iPTV MD — مشغّل وسائط لا يجمع أي بيانات شخصية.">
+<style>
+  :root{
+    --bg:#0b0d06; --panel:#14170e; --line:#262a1c;
+    --text:#e8ecdf; --muted:#9aa487; --lime:#c8ff00; --cyan:#5fe3d0;
+    --radius:16px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:"Segoe UI",system-ui,-apple-system,"Noto Naskh Arabic","Noto Sans Arabic",Tahoma,Arial,sans-serif;
+    line-height:1.85; font-size:16px;
+  }
+  .wrap{max-width:820px;margin:0 auto;padding:28px 20px 80px}
+
+  header{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:26px}
+  .logo{width:52px;height:52px;border-radius:14px;background:var(--lime);
+        display:grid;place-items:center;flex:0 0 auto}
+  .logo svg{width:30px;height:30px;display:block}
+  .brand{font-weight:800;font-size:22px;letter-spacing:.2px;direction:ltr;unicode-bidi:isolate}
+  .brand small{display:block;font-weight:500;font-size:13px;color:var(--muted);letter-spacing:0}
+  .spacer{flex:1 1 auto}
+  .toggle{
+    background:transparent;color:var(--text);border:1px solid var(--line);
+    padding:9px 16px;border-radius:999px;cursor:pointer;font-size:14px;font-weight:600;
+    font-family:inherit;transition:border-color .15s,color .15s;
+  }
+  .toggle:hover{border-color:var(--lime);color:var(--lime)}
+
+  h1{font-size:28px;line-height:1.4;margin:0 0 6px}
+  .updated{color:var(--muted);font-size:14px;margin:0 0 30px}
+  h2{font-size:19px;margin:38px 0 10px;padding-top:22px;border-top:1px solid var(--line)}
+  h2:first-of-type{border-top:0;padding-top:0}
+  p{margin:0 0 14px}
+  ul{margin:0 0 16px;padding-inline-start:22px}
+  li{margin-bottom:8px}
+  a{color:var(--cyan)}
+  strong{color:#fff}
+
+  .callout{
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+    padding:18px 20px;margin:22px 0;
+  }
+  .callout.accent{border-inline-start:3px solid var(--lime)}
+  .callout p:last-child{margin-bottom:0}
+
+  .tablewrap{overflow-x:auto;margin:0 0 20px;-webkit-overflow-scrolling:touch}
+  table{width:100%;border-collapse:collapse;font-size:15px;min-width:440px}
+  th,td{text-align:start;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--lime);font-weight:700;white-space:nowrap}
+  tr:last-child td{border-bottom:0}
+  code{background:#1b1f13;padding:2px 7px;border-radius:6px;font-size:14px;
+       direction:ltr;unicode-bidi:isolate;color:var(--cyan)}
+
+  footer{margin-top:52px;padding-top:20px;border-top:1px solid var(--line);
+         color:var(--muted);font-size:14px}
+
+  [dir=ltr] .brand small{letter-spacing:.2px}
+  .lang{display:none}
+  .lang.on{display:block}
+  @media (max-width:520px){ h1{font-size:23px} .wrap{padding:20px 16px 60px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#0C1000" d="M34,30 L74,30 A8,8 0 0 1 82,38 L82,70 A8,8 0 0 1 74,78 L34,78 A8,8 0 0 1 26,70 L26,38 A8,8 0 0 1 34,30 Z"/>
+        <path fill="#C8FF00" d="M47,43 L47,65 L67,54 Z"/>
+        <path fill="#0C1000" d="M51.6,77 L56.4,77 L56.4,82 L63,82 A2.2,2.2 0 0 1 63,86.4 L45,86.4 A2.2,2.2 0 0 1 45,82 L51.6,82 Z"/>
+      </svg>
+    </div>
+    <div class="brand">iPTV MD<small data-ar="سياسة الخصوصية" data-en="Privacy Policy">سياسة الخصوصية</small></div>
+    <div class="spacer"></div>
+    <button class="toggle" id="langBtn" type="button">English</button>
+  </header>
+
+  <!-- ═══════════════════════════ العربية ═══════════════════════════ -->
+  <main class="lang on" id="ar">
+    <h1>سياسة الخصوصية — iPTV MD</h1>
+    <p class="updated">آخر تحديث: ١١ سبتمبر ٢٠٢٦</p>
+
+    <h2>من نحن</h2>
+    <p>
+      iPTV MD تطبيق <strong>مشغّل وسائط</strong> لأجهزة أندرويد (هواتف وأجهزة لوحية وأجهزة تلفزيون).
+      التطبيق <strong>لا يوفّر أي محتوى</strong>، ولا يستضيف قنوات أو أفلامًا أو مسلسلات، ولا يبيع
+      اشتراكات، ولا يرتبط بأي مزوّد خدمة. وظيفته الوحيدة تشغيل البثّ الذي يضيفه المستخدم بنفسه عبر
+      بيانات حساب متوافق مع واجهة Xtream أو رابط قائمة M3U.
+    </p>
+
+    <h2>البيانات التي نجمعها</h2>
+    <div class="callout accent">
+      <p><strong>لا نجمع أي بيانات شخصية على الإطلاق.</strong> لا يملك التطبيق خوادم خاصة به، ولا
+      يُنشئ حسابات، ولا يرسل أي معلومات إلى مطوّره أو إلى أي طرف ثالث.</p>
+    </div>
+    <p>تحديدًا، التطبيق:</p>
+    <ul>
+      <li>لا يجمع الاسم أو البريد الإلكتروني أو رقم الهاتف.</li>
+      <li>لا يجمع مُعرِّف الإعلان أو أي مُعرِّف يُستخدم للتتبّع.</li>
+      <li>لا يجمع بيانات الموقع الجغرافي.</li>
+      <li>لا يحتوي على إعلانات ولا أدوات تحليلات ولا أدوات تتبّع من أي نوع.</li>
+      <li>لا يطلب صلاحية الوصول إلى جهات الاتصال أو الصور أو الكاميرا أو الميكروفون.</li>
+    </ul>
+
+    <h2>الصلاحيات ولماذا</h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>الصلاحية</th><th>الغرض</th></tr></thead>
+        <tbody>
+          <tr><td><code>INTERNET</code></td><td>الاتصال بالخادم الذي تُدخله أنت</td></tr>
+          <tr><td><code>ACCESS_NETWORK_STATE</code></td><td>معرفة حالة الشبكة قبل بدء التشغيل</td></tr>
+          <tr><td><code>WAKE_LOCK</code></td><td>منع انقطاع البثّ عند إطفاء الشاشة</td></tr>
+          <tr><td><code>WRITE_EXTERNAL_STORAGE</code></td><td>حفظ الملفات التي تنزّلها بنفسك — <strong>على أندرويد ٩ فأقدم فقط</strong>، ولا تُطلب إطلاقًا على أندرويد ١٠ فأحدث</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>البيانات المحفوظة على جهازك</h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>البيان</th><th>الغرض</th></tr></thead>
+        <tbody>
+          <tr><td>رابط الخادم واسم المستخدم وكلمة المرور</td><td>الاتصال بحساب الاشتراك الذي أدخلته</td></tr>
+          <tr><td>رابط قائمة M3U</td><td>تحميل القائمة عند فتح التطبيق</td></tr>
+          <tr><td>إعدادات اللغة والتحديث التلقائي والقفل الأبوي</td><td>تذكُّر تفضيلاتك</td></tr>
+          <tr><td>نسخة مؤقتة من القوائم وصور المقدّمات</td><td>تسريع التصفّح</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      <strong>كلمات المرور تُحفظ مشفّرة</strong> بخوارزمية AES-256-GCM، والمفتاح مُولَّد ومحفوظ داخل
+      مخزن مفاتيح النظام (Android KeyStore) فلا يغادر الجهاز ولا يمكن استخراجه. كما عُطِّل النسخ
+      الاحتياطي السحابي ونقل بيانات التطبيق إلى جهاز آخر، فلا تُنسخ هذه البيانات إلى حساب Google
+      الخاص بك ولا تصل إلينا نحن أبدًا.
+    </p>
+
+    <div class="callout">
+      <p>
+        <strong>لكن لا بد من التوضيح:</strong> بيانات دخولك تُرسَل بالطبع <strong>إلى الخادم الذي
+        أدخلته أنت</strong>، فهذا هو معنى تسجيل الدخول لديه. بروتوكول Xtream يضع اسم المستخدم وكلمة
+        المرور داخل عنوان الطلب نفسه.
+      </p>
+      <p>
+        يبدأ التطبيق دائمًا بمحاولة اتصال مشفَّر (HTTPS)، ولا يعود إلى HTTP غير المشفَّر إلا إذا كان
+        خادمك لا يدعم HTTPS — وعندها تسير بياناتك على الشبكة دون تشفير، وهذا قيد في خادم مزوّدك لا
+        نملك تغييره. <strong>إن كتبت <code>https://</code> بنفسك فلن يهبط التطبيق إلى HTTP أبدًا.</strong>
+      </p>
+    </div>
+
+    <p>حذف التطبيق يمحو ما هو محفوظ على جهازك.</p>
+
+    <h2>الملفات التي تنزّلها بنفسك</h2>
+    <p>
+      عند الضغط على «تنزيل» في التطبيق (على الهاتف واللوح فقط)، يُسلَّم الرابط إلى
+      <strong>مدير التنزيل في نظام أندرويد</strong>، وهو من ينزّل الملف إلى مجلد التنزيلات العام على
+      جهازك داخل مجلد باسم <code>iPTV MD</code>. الملف ملكك: يظهر في مدير الملفات، ويمكن نقله أو حذفه،
+      ويبقى موجودًا حتى لو أُلغي تثبيت التطبيق.
+    </p>
+    <p>
+      لا تُرفع هذه الملفات إلى أي مكان، ولا يعرف بها أحد غيرك. التطبيق يحتفظ فقط بقائمة محلية بأسماء
+      ما نُزّل ومساراته حتى يعرض علامة «تم التنزيل» ويشغّل النسخة المحفوظة بدل البثّ.
+    </p>
+
+    <h2>الاتصال بخوادم خارجية</h2>
+    <p>
+      عند التشغيل يتّصل التطبيق <strong>مباشرةً</strong> بالخادم الذي أدخلته أنت. هذا الاتصال يخضع
+      لسياسة الخصوصية الخاصة بمزوّد الخدمة الذي اشتركت لديه، ولا سيطرة لنا عليه ولا علم لنا بما
+      يجمعه. راجع سياسة مزوّدك بنفسك.
+    </p>
+    <p>
+      كذلك، إذا فتحت مقطعًا دعائيًا من داخل التطبيق فسيُفتح داخل متصفح مدمج مقيَّد بمواقع يوتيوب فوق
+      HTTPS فقط، وتسري عندئذٍ سياسة خصوصية يوتيوب. أي رابط آخر يُسلَّم لمتصفح جهازك خارج التطبيق.
+    </p>
+
+    <h2>الأطفال</h2>
+    <p>
+      التطبيق غير موجّه للأطفال دون سن ١٣ عامًا، ولا يجمع أي بيانات عنهم لأنه لا يجمع بيانات أصلًا.
+      ولأن المحتوى يأتي من اشتراك المستخدم، يوفّر التطبيق <strong>قفلًا أبويًا</strong>: التصنيفات
+      المطابقة لكلمات البالغين مخفيّة افتراضيًا ولا تظهر إلا بعد ضبط رقم سرّي وإدخاله.
+    </p>
+
+    <h2>التغييرات على هذه السياسة</h2>
+    <p>
+      قد تُحدَّث هذه السياسة عند إضافة ميزات جديدة. سيظهر تاريخ آخر تحديث في أعلى الصفحة، ويُنشر أي
+      تعديل جوهري في صفحة التطبيق على Google Play.
+    </p>
+
+    <h2>التواصل</h2>
+    <p>لأي استفسار بخصوص الخصوصية: <a href="mailto:mizo.82580@gmail.com">mizo.82580@gmail.com</a></p>
+  </main>
+
+  <!-- ═══════════════════════════ English ═══════════════════════════ -->
+  <main class="lang" id="en">
+    <h1>Privacy Policy — iPTV MD</h1>
+    <p class="updated">Last updated: 11 September 2026</p>
+
+    <h2>Who we are</h2>
+    <p>
+      iPTV MD is a <strong>media player</strong> for Android devices (phones, tablets and TVs).
+      The app <strong>provides no content</strong>: it hosts no channels, movies or series, sells no
+      subscriptions, and is not affiliated with any service provider. Its only function is to play
+      the streams the user adds themselves, using their own Xtream-compatible account details or an
+      M3U playlist link.
+    </p>
+
+    <h2>Data we collect</h2>
+    <div class="callout accent">
+      <p><strong>We collect no personal data at all.</strong> The app has no servers of its own,
+      creates no accounts, and sends no information to the developer or to any third party.</p>
+    </div>
+    <p>Specifically, the app:</p>
+    <ul>
+      <li>collects no name, email address or phone number;</li>
+      <li>collects no advertising ID or any tracking identifier;</li>
+      <li>collects no location data;</li>
+      <li>contains no ads, no analytics and no trackers of any kind;</li>
+      <li>requests no access to contacts, photos, camera or microphone.</li>
+    </ul>
+
+    <h2>Permissions and why</h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Permission</th><th>Purpose</th></tr></thead>
+        <tbody>
+          <tr><td><code>INTERNET</code></td><td>Connecting to the server you enter</td></tr>
+          <tr><td><code>ACCESS_NETWORK_STATE</code></td><td>Checking network state before playback</td></tr>
+          <tr><td><code>WAKE_LOCK</code></td><td>Keeping playback alive when the screen turns off</td></tr>
+          <tr><td><code>WRITE_EXTERNAL_STORAGE</code></td><td>Saving files you download yourself — <strong>on Android 9 and older only</strong>; never requested on Android 10 or newer</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Data stored on your device</h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Data</th><th>Purpose</th></tr></thead>
+        <tbody>
+          <tr><td>Server URL, username and password</td><td>Connecting to the subscription you entered</td></tr>
+          <tr><td>M3U playlist URL</td><td>Loading the playlist when the app opens</td></tr>
+          <tr><td>Language, auto-refresh and parental-lock settings</td><td>Remembering your preferences</td></tr>
+          <tr><td>A temporary cache of catalogs and poster images</td><td>Faster browsing</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      <strong>Passwords are stored encrypted</strong> with AES-256-GCM. The key is generated and held
+      inside the Android KeyStore, so it never leaves the device and cannot be extracted. Cloud backup
+      and device-to-device transfer of the app's data are both disabled, so this data is never copied
+      to your Google account and never reaches us.
+    </p>
+
+    <div class="callout">
+      <p>
+        <strong>To be clear, though:</strong> your credentials are of course sent <strong>to the
+        server you entered</strong> — that is what signing in to it means. The Xtream protocol places
+        the username and password inside the request URL itself.
+      </p>
+      <p>
+        The app always tries an encrypted connection (HTTPS) first and falls back to unencrypted HTTP
+        only when your server does not support HTTPS — in which case your credentials travel
+        unencrypted, a limitation of your provider's server that we cannot change.
+        <strong>If you type <code>https://</code> yourself, the app will never fall back to HTTP.</strong>
+      </p>
+    </div>
+
+    <p>Uninstalling the app erases what is stored on your device.</p>
+
+    <h2>Files you download yourself</h2>
+    <p>
+      When you tap Download in the app (phones and tablets only), the link is handed to
+      <strong>Android's own download manager</strong>, which saves the file to your device's public
+      Downloads folder, inside a folder named <code>iPTV MD</code>. The file is yours: it appears in
+      your file manager, you can move or delete it, and it stays on the device even if you uninstall
+      the app.
+    </p>
+    <p>
+      These files are never uploaded anywhere and nobody else knows about them. The app keeps only a
+      local list of what was downloaded and where, so it can show a “Downloaded” mark and play the
+      saved copy instead of streaming.
+    </p>
+
+    <h2>Connections to external servers</h2>
+    <p>
+      During playback the app connects <strong>directly</strong> to the server you entered. That
+      connection is governed by the privacy policy of the provider you subscribed to; we have no
+      control over it and no knowledge of what they collect. Please review your provider's own policy.
+    </p>
+    <p>
+      If you open a trailer from inside the app, it opens in an embedded browser restricted to YouTube
+      over HTTPS, and YouTube's privacy policy applies. Any other link is handed to your device's own
+      browser, outside the app.
+    </p>
+
+    <h2>Children</h2>
+    <p>
+      The app is not directed at children under 13 and collects no data about them, because it
+      collects no data at all. Since the content comes from the user's own subscription, the app
+      includes a <strong>parental lock</strong>: categories matching adult keywords are hidden by
+      default and appear only after a PIN has been set and entered.
+    </p>
+
+    <h2>Changes to this policy</h2>
+    <p>
+      This policy may be updated when new features are added. The date at the top reflects the latest
+      version, and any material change will be announced on the app's Google Play listing.
+    </p>
+
+    <h2>Contact</h2>
+    <p>For any privacy question: <a href="mailto:mizo.82580@gmail.com">mizo.82580@gmail.com</a></p>
+  </main>
+
+  <footer id="foot">iPTV MD — لا يتضمّن أي محتوى. مشغّل وسائط فقط.</footer>
+</div>
+
+<script>
+  (function () {
+    var btn = document.getElementById('langBtn');
+    var ar = document.getElementById('ar');
+    var en = document.getElementById('en');
+    var foot = document.getElementById('foot');
+    var sub = document.querySelector('.brand small');
+    var isAr = true;
+    btn.addEventListener('click', function () {
+      isAr = !isAr;
+      ar.classList.toggle('on', isAr);
+      en.classList.toggle('on', !isAr);
+      document.documentElement.lang = isAr ? 'ar' : 'en';
+      document.documentElement.dir = isAr ? 'rtl' : 'ltr';
+      document.title = isAr ? 'سياسة الخصوصية — iPTV MD' : 'Privacy Policy — iPTV MD';
+      btn.textContent = isAr ? 'English' : 'العربية';
+      sub.textContent = isAr ? sub.dataset.ar : sub.dataset.en;
+      foot.textContent = isAr
+        ? 'iPTV MD — لا يتضمّن أي محتوى. مشغّل وسائط فقط.'
+        : 'iPTV MD — No content included. A media player only.';
+      window.scrollTo(0, 0);
+    });
+  })();
+</script>
+</body>
+</html>
