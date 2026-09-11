@@ -1,0 +1,51 @@
+#EXTM3U
+# قائمة تجريبية للقطات المتجر. فيديوهات عيّنة عامة + بوسترات من تصميمنا.
+# لا تحتوي أي محتوى مملوك لطرف ثالث.
+#EXTINF:-1 tvg-id="demo1" tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/logos/ch1.jpg" group-title="Live TV",Demo Channel 1
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-id="demo2" tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/logos/ch2.jpg" group-title="Live TV",Demo Channel 2
+https://test-streams.mux.dev/pts_shift/master.m3u8
+#EXTINF:-1 tvg-id="demo3" tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/logos/ch3.jpg" group-title="Live TV",Demo Channel 3
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+#EXTINF:-1 tvg-id="demo4" tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/logos/ch4.jpg" group-title="Live TV",Demo Channel 4
+https://test-streams.mux.dev/test_001/stream.m3u8
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/BigBuckBunny.jpg" group-title="Movies",Big Buck Bunny
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/ElephantsDream.jpg" group-title="Movies",Elephants Dream
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/Sintel.jpg" group-title="Movies",Sintel
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/TearsOfSteel.jpg" group-title="Movies",Tears of Steel
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/ForBiggerBlazes.jpg" group-title="Movies",For Bigger Blazes
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/ForBiggerEscapes.jpg" group-title="Movies",For Bigger Escapes
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/ForBiggerFun.jpg" group-title="Movies",For Bigger Fun
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/ForBiggerJoyrides.jpg" group-title="Movies",For Bigger Joyrides
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/ForBiggerMeltdowns.jpg" group-title="Movies",For Bigger Meltdowns
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/WeAreGoingOnBullrun.jpg" group-title="Movies",We Are Going On Bullrun
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/DemoSeries.jpg" group-title="Series",Demo Series S01E01
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/DemoSeries.jpg" group-title="Series",Demo Series S01E02
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/DemoSeries.jpg" group-title="Series",Demo Series S01E03
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/DemoSeries.jpg" group-title="Series",Demo Series S01E04
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/DemoSeries.jpg" group-title="Series",Demo Series S01E05
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/DemoSeries.jpg" group-title="Series",Demo Series S01E06
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/OpenMovies.jpg" group-title="Series",Open Movies S01E01
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/OpenMovies.jpg" group-title="Series",Open Movies S01E02
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/OpenMovies.jpg" group-title="Series",Open Movies S01E03
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4
+#EXTINF:-1 tvg-logo="https://YOURNAME.github.io/iptvmd-privacy/posters/OpenMovies.jpg" group-title="Series",Open Movies S01E04
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4
