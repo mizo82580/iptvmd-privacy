@@ -1,0 +1,69 @@
+#EXTM3U
+# قائمة تجريبية لتصوير لقطات المتجر — فيديوهات عيّنة مفتوحة وبوسترات مرسومة خصيصًا.
+# لا تحتوي القائمة أي محتوى مملوك لطرف ثالث.
+#EXTINF:-1 tvg-id="ch1" tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/logos/ch1.jpg" group-title="البث المباشر",قناة الأولى
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-id="ch2" tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/logos/ch2.jpg" group-title="البث المباشر",قناة الرياضية
+https://test-streams.mux.dev/pts_shift/master.m3u8
+#EXTINF:-1 tvg-id="ch3" tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/logos/ch3.jpg" group-title="البث المباشر",قناة الوثائقية
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+#EXTINF:-1 tvg-id="ch4" tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/logos/ch4.jpg" group-title="البث المباشر",قناة الأفلام
+https://test-streams.mux.dev/test_001/stream.m3u8
+#EXTINF:-1 tvg-id="ch5" tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/logos/ch5.jpg" group-title="البث المباشر",قناة الأطفال
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-id="ch6" tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/logos/ch6.jpg" group-title="البث المباشر",قناة المنوعات
+https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/m01.jpg" tvg-plot="أرنب وديع يقضي صباحه بين الأشجار، حتى تعترض طريقه ثلاثة مخلوقات مشاغبة فتتحول نزهته الهادئة إلى مطاردة لا تخلو من الطرافة." tvg-year="2008" tvg-genre="مغامرة • عائلي" group-title="الأفلام",رحلة الأرنب
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/m02.jpg" tvg-plot="رجلان يسيران داخل آلة عملاقة لا نهاية لها، أحدهما يرى فيها عالمًا يستحق الثقة والآخر يرى فخًا محكمًا. رحلة عن الخوف وعمّن نصدّق." tvg-year="2006" tvg-genre="خيال علمي" group-title="الأفلام",حلم الفيلة
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/m03.jpg" tvg-plot="فتاة تقطع الجبال والصحارى بحثًا عن تنين صغير اعتنت به يومًا. رحلة طويلة تكتشف فيها أن الزمن يغيّر كل شيء، حتى ما نحب." tvg-year="2010" tvg-genre="فانتازيا • دراما" group-title="الأفلام",سنتل
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/m04.jpg" tvg-plot="في أمستردام المستقبل، يحاول فريق من العلماء إعادة كتابة لحظة واحدة من الماضي لإنقاذ المدينة من آلات خرجت عن السيطرة." tvg-year="2012" tvg-genre="خيال علمي • أكشن" group-title="الأفلام",دموع من فولاذ
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/m05.jpg" tvg-plot="مقطع عرضي قصير يستعرض ما تفعله شاشة كبيرة بمشهد مشتعل: تفاصيل أوضح، ألوان أعمق، وصوت يملأ الغرفة." tvg-year="2014" tvg-genre="عرض تقديمي" group-title="الأفلام",ألسنة اللهب
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/m06.jpg" tvg-plot="دقيقة واحدة تكفي لتترك مكانك وتذهب إلى مكان آخر. عرض قصير عن قوة الصورة حين تُعرض بالحجم الذي تستحقه." tvg-year="2014" tvg-genre="عرض تقديمي" group-title="الأفلام",مهارب أوسع
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/m07.jpg" tvg-plot="لقطات سريعة ومرحة صُمّمت خصيصًا لاختبار الألوان الزاهية والحركة السريعة على الشاشات الحديثة." tvg-year="2014" tvg-genre="عرض تقديمي" group-title="الأفلام",متعة أكبر
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/m08.jpg" tvg-plot="الطريق مفتوح والكاميرا لا تتوقف. عرض قصير عن الحركة، صُوّر ليُشاهَد على أوسع شاشة تجدها." tvg-year="2014" tvg-genre="عرض تقديمي" group-title="الأفلام",جولات طويلة
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/m09.jpg" tvg-plot="مشاهد متلاحقة تختبر قدرة الشاشة على التباين العالي والانتقالات السريعة بين الضوء والظلام." tvg-year="2014" tvg-genre="عرض تقديمي" group-title="الأفلام",انصهار
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/m10.jpg" tvg-plot="رحلة سيارات عبر مدن وطرق سريعة، مصوّرة بكاميرات متعددة لتظهر ثبات الصورة أثناء الحركة العنيفة." tvg-year="2014" tvg-genre="وثائقي قصير" group-title="الأفلام",على الطريق
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/m11.jpg" tvg-plot="اختبار ميداني بين الإسفلت والتراب، يرصد أداء المركبة على سطحين مختلفين تمامًا في يوم واحد." tvg-year="2014" tvg-genre="وثائقي قصير" group-title="الأفلام",تجربة الطرق الوعرة
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/m12.jpg" tvg-plot="مراجعة مختصرة تمشي من الشكل الخارجي إلى المقصورة ثم الطريق، بتعليق هادئ ولقطات ثابتة." tvg-year="2014" tvg-genre="وثائقي قصير" group-title="الأفلام",مراجعة سريعة
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/m13.jpg" tvg-plot="سؤال بسيط وإجابة عملية: ما الذي يمكن شراؤه بميزانية ضيقة جدًا؟ جولة بين خيارات متواضعة ومفاجآت غير متوقعة." tvg-year="2014" tvg-genre="وثائقي قصير" group-title="الأفلام",بألف فقط
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s01.jpg" tvg-plot="ست حلقات قصيرة، كل واحدة تتبع وجهًا مختلفًا في المدينة نفسها: سائق ليلي، بائعة زهور، مهندس لا ينام، ومساء واحد يجمعهم من غير أن يدروا." group-title="المسلسلات",حكايات المدينة S01E01
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s01.jpg" tvg-plot="ست حلقات قصيرة، كل واحدة تتبع وجهًا مختلفًا في المدينة نفسها: سائق ليلي، بائعة زهور، مهندس لا ينام، ومساء واحد يجمعهم من غير أن يدروا." group-title="المسلسلات",حكايات المدينة S01E02
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s01.jpg" tvg-plot="ست حلقات قصيرة، كل واحدة تتبع وجهًا مختلفًا في المدينة نفسها: سائق ليلي، بائعة زهور، مهندس لا ينام، ومساء واحد يجمعهم من غير أن يدروا." group-title="المسلسلات",حكايات المدينة S01E03
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s01.jpg" tvg-plot="ست حلقات قصيرة، كل واحدة تتبع وجهًا مختلفًا في المدينة نفسها: سائق ليلي، بائعة زهور، مهندس لا ينام، ومساء واحد يجمعهم من غير أن يدروا." group-title="المسلسلات",حكايات المدينة S01E04
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s01.jpg" tvg-plot="ست حلقات قصيرة، كل واحدة تتبع وجهًا مختلفًا في المدينة نفسها: سائق ليلي، بائعة زهور، مهندس لا ينام، ومساء واحد يجمعهم من غير أن يدروا." group-title="المسلسلات",حكايات المدينة S01E05
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s01.jpg" tvg-plot="ست حلقات قصيرة، كل واحدة تتبع وجهًا مختلفًا في المدينة نفسها: سائق ليلي، بائعة زهور، مهندس لا ينام، ومساء واحد يجمعهم من غير أن يدروا." group-title="المسلسلات",حكايات المدينة S01E06
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s02.jpg" tvg-plot="سلسلة قصيرة عن أماكن تدور حول نفسها: محطة فضاء مهجورة، مصنع متوقف، وذاكرة لا تكفّ عن إعادة نفس المشهد." group-title="المسلسلات",مدارات S01E01
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s02.jpg" tvg-plot="سلسلة قصيرة عن أماكن تدور حول نفسها: محطة فضاء مهجورة، مصنع متوقف، وذاكرة لا تكفّ عن إعادة نفس المشهد." group-title="المسلسلات",مدارات S01E02
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s02.jpg" tvg-plot="سلسلة قصيرة عن أماكن تدور حول نفسها: محطة فضاء مهجورة، مصنع متوقف، وذاكرة لا تكفّ عن إعادة نفس المشهد." group-title="المسلسلات",مدارات S01E03
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s02.jpg" tvg-plot="سلسلة قصيرة عن أماكن تدور حول نفسها: محطة فضاء مهجورة، مصنع متوقف، وذاكرة لا تكفّ عن إعادة نفس المشهد." group-title="المسلسلات",مدارات S01E04
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s03.jpg" tvg-plot="أربع حلقات تتبع طرقًا مختلفة: طريق ساحلي، طريق جبلي، طريق مدينة مزدحم، وطريق لا يؤدي إلى شيء." group-title="المسلسلات",على الأسفلت S01E01
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s03.jpg" tvg-plot="أربع حلقات تتبع طرقًا مختلفة: طريق ساحلي، طريق جبلي، طريق مدينة مزدحم، وطريق لا يؤدي إلى شيء." group-title="المسلسلات",على الأسفلت S01E02
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s03.jpg" tvg-plot="أربع حلقات تتبع طرقًا مختلفة: طريق ساحلي، طريق جبلي، طريق مدينة مزدحم، وطريق لا يؤدي إلى شيء." group-title="المسلسلات",على الأسفلت S01E03
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mizo82580/iptvmd-privacy/main/iptvmd-demo2/posters/s03.jpg" tvg-plot="أربع حلقات تتبع طرقًا مختلفة: طريق ساحلي، طريق جبلي، طريق مدينة مزدحم، وطريق لا يؤدي إلى شيء." group-title="المسلسلات",على الأسفلت S01E04
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4
